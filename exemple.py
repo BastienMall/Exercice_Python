@@ -69,8 +69,12 @@ etiquette = tk.Label(fenetre, text="Bravo tu as fait ta première interface grap
 # permetd'afficher toute les étiquettes
 etiquette.pack()
 
+def action_bouton():
+    print("Le bouton à été cliqué")
+# Affiche un message dans le terminal
+
 # Création d'un bouton
-bouton = tk.Button(fenetre,text="Cliquez sur moi !")
+bouton = tk.Button(fenetre,text="Cliquez sur moi !", command=action_bouton)
 bouton.pack()
 
 fenetre.geometry('400x300')
