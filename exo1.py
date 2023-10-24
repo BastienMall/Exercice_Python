@@ -5,7 +5,6 @@
 nom = input("Entrez votre nom:")
 age= input("Entrez votre age:")
 taille= input("Entrez votre taille:")
-
 fruits=input("Entrez votre fruits préféré:")
 
 
