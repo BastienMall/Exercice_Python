@@ -55,3 +55,16 @@
 # 
 # nom = input("Entre votre nom :")
 # print("Bonjour," + nom)
+
+# Utiliser tkinter
+import tkinter as tk
+# print(tk.TkVersion)
+
+fenetre = tk.Tk()
+
+fenetre.title("Ma première interface graphique")
+
+fenetre.geometry('400x300')
+
+# permet de rester affiché l'interface jusqu'à ce qu'on clique sur la croix
+fenetre.mainloop()
