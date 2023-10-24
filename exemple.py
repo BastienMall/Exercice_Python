@@ -69,6 +69,10 @@ etiquette = tk.Label(fenetre, text="Bravo tu as fait ta première interface grap
 # permetd'afficher toute les étiquettes
 etiquette.pack()
 
+# Création d'un bouton
+bouton = tk.Button(fenetre,text="Cliquez sur moi !")
+bouton.pack()
+
 fenetre.geometry('400x300')
 
 # permet de rester affiché l'interface jusqu'à ce qu'on clique sur la croix
