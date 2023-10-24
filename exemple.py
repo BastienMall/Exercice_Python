@@ -77,6 +77,10 @@ def action_bouton():
 bouton = tk.Button(fenetre,text="Cliquez sur moi !", command=action_bouton)
 bouton.pack()
 
+# Création d'un champ de texte
+champ_texte = tk.Entry(fenetre)
+champ_texte.pack()
+
 fenetre.geometry('400x300')
 
 # permet de rester affiché l'interface jusqu'à ce qu'on clique sur la croix
