@@ -62,7 +62,12 @@ import tkinter as tk
 
 fenetre = tk.Tk()
 
-fenetre.title("Ma première interface graphique")
+# fenetre.title("Ma première interface graphique")
+
+# Création d'étiquette
+etiquette = tk.Label(fenetre, text="Bravo tu as fait ta première interface graphique")
+# permetd'afficher toute les étiquettes
+etiquette.pack()
 
 fenetre.geometry('400x300')
 
